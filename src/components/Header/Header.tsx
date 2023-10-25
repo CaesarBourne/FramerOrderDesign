@@ -59,7 +59,7 @@ const Header = () => {
         transition={{ delay: 0.3, type: "spring", stiffness: 150 }}
         className="title"
       >
-        <h1>Caesars Place</h1>
+        <h1>Caesars Data</h1>
       </motion.div>
     </header>
   );
