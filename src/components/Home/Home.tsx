@@ -55,7 +55,7 @@ const Home = () => {
       exit={{ x: "-100vw" }}
       className="home container"
     >
-      <h2>Welcome to Caesars Place</h2>
+      <h2>Welcome to Caesars Page</h2>
       <Link to="/base">
         <motion.button variants={buttonVariant} whileHover="hover">
           Create Your Order
