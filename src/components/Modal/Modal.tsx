@@ -31,9 +31,11 @@ const Modal = ({ showModal, setShowModal }: any) => {
           exit={{ x: "-100vw" }}
         >
           <motion.div variants={modal} exit={{ opacity: 0 }} className="modal">
-            <p>Want to make another Pizza</p>
+            <p>Want to make a different order</p>
             <Link to={"/"}>
-              <button onClick={() => setShowModal(false)}>Start Again</button>
+              <button onClick={() => setShowModal(false)}>
+                Start Again, Thanks
+              </button>
             </Link>
           </motion.div>
         </motion.div>
