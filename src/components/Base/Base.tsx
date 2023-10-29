@@ -101,7 +101,7 @@ const Base = ({ pizza, addbase }: any) => {
         <motion.div variants={nextVariants} className="next">
           <Link to="/toppings">
             <motion.button variants={buttonVariant} whileHover="hover">
-              Next
+              Move
             </motion.button>
           </Link>
         </motion.div>
